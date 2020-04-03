@@ -1,0 +1,27 @@
+{
+  "name": "lister",
+  "version": "1.0.0",
+  "description": "To-Do List Using ReactJs",
+  "main": "index.js",
+  "scripts": {
+    "serve": "live-server public/",
+    "build": "webpack --mode development --watch",
+    "build-babel": "babel src/index.js --out-file=public/scripts/index.js --presets=env,react --watch"
+  },
+  "author": "Mark D'Souza",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "live-server": "^1.2.1",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  },
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
